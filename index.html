@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+   <style>
+        h1{
+           text-align: center !important;
+           padding: 1em;
+           margin: 1em;
+           /*background-color: brown;*/
+       } 
+       body{
+           background-color: rgb(255, 241, 147);
+       }
+
+       img {
+           margin: auto;
+           display:block;
+           align-content: center;
+           height: 3OOpx;
+           width: 300px;
+  border-radius: 2.25em;
+}
+   .small_pizza{
+       flex: 1;
+        border: 2px;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 1.25em;
+        background-color: rgb(255, 192, 153);
+    }
+    .medium_pizza{
+        flex: 1;
+        border: 2px;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 1.25em;
+        background-color: rgb(160, 250, 135);
+    }
+    .large_pizza{
+        flex: 1;
+        border: 2px;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 1.25em;
+        background-color: rgb(144, 237, 247);
+    }
+    .footer{
+        border: 2px;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 1.25em;
+        background-color: rgb(253, 204, 130);
+    }
+    @media (min-width: 768px){
+        .pizzas{
+        display: flex;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PIZZA BAR</h1>
+        <div class="pizzas">
+            <div class="small_pizza">
+            <img src="SML pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg" alt="">
+           <h1>SMALL PIZZA</h1>
+           <h2>R58.99</h2>
+            <p>Small pizza  with 3 toppings 1 meat topping 3 or less other toppings</p>
+        </div>
+            <div class="medium_pizza">
+            <img src="MED crispy-mixed-pizza-with-olives-sausage_140725-3095.jpg" alt="">
+            <h1>MEDIUM PIZZA</h1>
+            <h2>R68.99</h2>
+            <p>Medium pizza with 3 toppings max 2 or less meat topping. 3or less other toppings.</p>
+        </div>
+            <div class="large_pizza">
+            <img src="LRG pizza-with-meat-stuffing-tomato-slices_114579-3532.jpg" alt="">
+            <h1>LARGE PIZZA</h1>
+            <h2>R78.99</h2>
+            <p>Large pizza with 3 toppings max 3 meat toppings max 3 or less other toppings</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>
+            <h2>Email: email@pizzabar.com</h2>
+            <h2>Phone: 012 345 6789</h2>
+            <h2>Address: 22 Crust Street, Tomato Town </h2>
+        </div>
+    </div>
+</body>
+</html>
