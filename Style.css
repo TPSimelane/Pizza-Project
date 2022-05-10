@@ -1,0 +1,53 @@
+h1{
+    text-align: center !important;
+    padding: 1em;
+    margin: 1em;
+    /*background-color: brown;*/
+} 
+body{
+    background-color: rgb(255, 241, 147);
+}
+
+img {
+    margin: auto;
+    display:block;
+    align-content: center;
+    height: 3OOpx;
+    width: 300px;
+border-radius: 2.25em;
+}
+.small_pizza{
+flex: 1;
+ border: 2px;
+ padding: 1em;
+ margin: 1em;
+ border-radius: 1.25em;
+ background-color: rgb(255, 192, 153);
+}
+.medium_pizza{
+ flex: 1;
+ border: 2px;
+ padding: 1em;
+ margin: 1em;
+ border-radius: 1.25em;
+ background-color: rgb(160, 250, 135);
+}
+.large_pizza{
+ flex: 1;
+ border: 2px;
+ padding: 1em;
+ margin: 1em;
+ border-radius: 1.25em;
+ background-color: rgb(144, 237, 247);
+}
+.footer{
+ border: 2px;
+ padding: 1em;
+ margin: 1em;
+ border-radius: 1.25em;
+ background-color: rgb(253, 204, 130);
+}
+@media (min-width: 768px){
+ .pizzas{
+ display: flex;
+}
