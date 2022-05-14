@@ -2,7 +2,7 @@ h1{
     text-align: center !important;
     padding: 1em;
     margin: 1em;
-    /*background-color: brown;*/
+    background-color: ;
 } 
 body{
     background-color: rgb(255, 241, 147);
@@ -11,10 +11,10 @@ body{
 img {
     margin: auto;
     display:block;
-    align-content: center;
+    align-content:center;
     height: 3OOpx;
     width: 300px;
-border-radius: 2.25em;
+border-radius: 12em;
 }
 .small_pizza{
 flex: 1;
